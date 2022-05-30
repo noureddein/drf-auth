@@ -10,3 +10,6 @@
     - E.g. as a VS Code snippet, or a gist.
   - Switch to using Gunicorn instead of Django’s built in development server.
     - mind the number of workers to avoid sluggishness
+
+
+### [PR](https://github.com/noureddein/drf-auth/pull/3)
