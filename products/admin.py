@@ -5,4 +5,4 @@ from .models import Product
 @admin.register(Product)
 class AdminProduct(admin.ModelAdmin):
     list_display = ['id', 'title', 'published',
-                    'updated', 'timestamp', 'category']
+                    'updated', 'timestamp', 'category', 'user']
